@@ -77,3 +77,9 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 venv/
+/.idea/be_erhumaster.iml
+/.idea/modules.xml
+/.idea/misc.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+/.idea/
