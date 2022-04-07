@@ -1,3 +1,4 @@
+/* 폰트 적용 */
 @font-face {
     font-family: 'PORanunn';
     src: url('/pythonProject/font/PORanunn.ttf') format('truetype');
@@ -5,6 +6,8 @@
 * {
     font-family: 'PORanunn';
 }
+
+/* index.html */
 .logo {
     margin: 20px; 0px;
     padding: 20px; 0px;
@@ -13,14 +16,21 @@
     justify-content: center;
     align-items: center;
 }
+
 .logo > span {
     margin: 20px; 0px;
     padding: 20px; 20px; 20px;
     border-radius: 50px;
 }
 
-.card-container {
+div.card-container {
     padding: 40px;
+    margin: 0 70px;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
 }
 
 .img-box {
@@ -48,3 +58,49 @@ footer div {
     justify-content: center;
     align-items: center;
 }
+
+/* erhu_sheet.html */
+.logo-sheetpage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-sheetpage img {
+    width: 100px;
+}
+
+.erhu-title-box {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.erhu-title-box .sheet-title {
+    border: 3px solid white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.erhu-item-box .sheet-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.erhu-item-box .sheet-items .media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.erhu-item-box .sheet-items .media-item span {
+    margin: 20px 0;
+}
+
